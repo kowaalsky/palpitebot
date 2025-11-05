@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url(img/bg.png);
+  background-size: 220px;
+  display: flex;
+  flex-direction: row;
+}
+
+menu {
+  background-image: linear-gradient(to bottom, #760000, #000000);
+  background-attachment: fixed;
+  width: 10%;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  position: sticky;
+  top: 50px;
+}
+
+menu li{
+    width: 100%;
+    padding: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 3px solid #b50000;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+menu li:hover{
+    background-color: #ffc3c35e;
+    transition: all .1s;
+}
+
+main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 60px;
+  background-image: linear-gradient(to bottom, #c40000, #000);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+header img {
+  height: 150px;
+  position: fixed;
+  top: 9%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.line {
+  padding: 3px;
+  background-color: #fff;
+  border-bottom: 6px double #800;
+}
+
+section#page {
+  flex: 1;
+  padding: 30px;
+  position: sticky;
+  top: 50px;
+  height: calc(100vh - 50px);
+  overflow: hidden;
+}
+
+section#page .content {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  padding: 10px;
+  border-radius: 30px 0 0 30px;
+  background-color: #ffc3c3;
+  border: 10px double #800;
+}
+
+
+/* formatação da explicação */
+
+p{
+    margin-bottom: 5px;
+}
+
+h1{
+    color: #430000;
+    border-left: 5px solid #700000c0;
+    padding-left: 6px;
+    background-image: linear-gradient(to right, #9c000055, transparent);
+    border-radius: 5px 10px 10px 0;
+    margin-bottom: 10px;
+}
+
+.sig{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: .6;
+    margin-bottom: 13px;
+}
+
+.sig::before{
+    content: '(';
+}.sig::after{
+    content: ')';
+}
+
+h3, h4{
+    color: #503939;
+    border-left: 5px solid #4c4c4cc0;
+    padding-left: 6px;
+    background-image: linear-gradient(to right, #916f6f55, transparent);
+    border-radius: 5px 10px 10px 0;
+    margin: 10px 0 10px 0;
+    font-style: italic;
+}
+
+h4{
+    color: #000000;
+    border-left: 5px solid #161616c0;
+    background-image: linear-gradient(to right, #1d065055, transparent);    
+}
+
+.ngt{
+    font-weight: bold;
+}
+
+.aviso{
+    background-color: #ff0;
+    margin: 6px;
+}
+.aindanao{
+    background-color: #800;
+    margin: 6px;
+    color: #ffa8a8;
+}
+
+.aindanao::before{
+    content: '🚨';
+}
+
+.aviso::before{
+    content: '⚠️';
+}
+
+.sticdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+img.stic{
+    height: 100px;
+}
+
+.sticdesc{
+    opacity: .5;
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+}
+
+.cmd{
+    font-weight: bold;
+    color: #430000;
+    font-style: italic;
+}
+
+.frasebot{
+    background-color: #fff;
+    border: 2.5px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.itc{
+    font-style: italic;
+}
+
+ul{
+    margin-left: 30px;
+}
+ul li{
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 700px;
+    background: #ffe5e5;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  thead {
+    background: linear-gradient(135deg, #4a0100, #000000);
+    color: #fff;
+  }
+
+  th, td {
+    padding: 14px 18px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  td.chv{
+    font-weight: bold;
+    font-style: italic;
+    color: #8e0200;
+
+  }
+
+  tbody tr:nth-child(even) {
+    background: #fff3f3;
+  }
+
+  tbody tr:hover {
+    background: #ffbcbc;
+    transition: 0.2s ease;
+  }
+
+  th {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.9em;
+  }
+
+  caption {
+    caption-side: top;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .seta_forwpp{
+    border-left: 4px solid #333;
+    padding-left: 8.3px;
+    background-color: #33333336;
+  }
+
+  .aindanao{
+    background-color: #800;
+  }

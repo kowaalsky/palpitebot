@@ -1,0 +1,18 @@
+//!+
+
+                <h1>!+</h1>
+                <p class="sig">Enviar mensagem de incentivo</p>
+                <p>O comando <spam class="cmd">!+</spam> serve para incentivar os membros a palpitares. Há 5 mensagens armazenadas; ao dar <spam class="cmd">!+</spam>, ele enviará uma aleatória das 5 ao grupo.</p>
+                <h3>Mensagem 1</h3>
+                <p>⚠️ Bora palpitar galera! Estamos com <spam class="ngt">x</spam> palpites!</p>
+                <h3>Mensagem 2</h3>
+                <p>📢 Galera, tem bolão rolando! Quem puder participar, é de graça! Os <spam class="ngt">3 primeiros colocados</spam> vão ganhar premiações em pix</p>
+                <h3>Mensagem 3</h3>
+                <p>SRN! Bora palpitar, galera! Se não for pela premiação, vamos pela diversão!</p>
+                <h3>Mensagem 4</h3>
+                <p>🚨🚨 Galera, estamos com <spam class="ngt">x</spam> palpites... Bora participar pessoal! Isso agrega demais — além disso, o bolão é <spam class="ngt">premiado</spam>!</p>
+                <div class="aviso">Este comando só pode ser usado de 15 em 15 minutos para evitar flood.</div>
+
+
+///////////////////
+
