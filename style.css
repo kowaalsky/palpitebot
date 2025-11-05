@@ -20,6 +20,7 @@ menu {
   background-image: linear-gradient(to bottom, #760000, #000000);
   background-attachment: fixed;
   width: 10%;
+  min-width: 80px;
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
