@@ -14,6 +14,7 @@ body {
   background-size: 220px;
   display: flex;
   flex-direction: row;
+  overflow: hidden;
 }
 
 menu {
@@ -75,7 +76,7 @@ header img {
 
 section#page {
   flex: 1;
-  padding: 30px;
+  padding: 8px;
   position: sticky;
   top: 50px;
   height: calc(100vh - 50px);
